@@ -16,8 +16,7 @@ class MyAppBar extends StatelessWidget {
         Expanded(
           child: Text(
             title,
-            style:
-                GoogleFonts.aBeeZee(fontSize: 40, fontWeight: FontWeight.bold),
+            style: GoogleFonts.acme(fontSize: 40, fontWeight: FontWeight.bold),
           ),
         ),
         GestureDetector(
