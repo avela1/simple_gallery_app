@@ -25,10 +25,11 @@ class MyAppBar extends StatelessWidget {
           decoration: BoxDecoration(
             border: Border.all(color: Colors.white),
             borderRadius: BorderRadius.circular(12),
-            color: Colors.grey.shade200,
+            color: Colors.grey.shade900,
           ),
           child: const Icon(
             Icons.search,
+            color: Colors.white,
             size: 36,
           ),
         ))
